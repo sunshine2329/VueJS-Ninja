@@ -11,12 +11,6 @@ import header from './components/header';
 export default {
   components: {
     'app-header': header,
-  },
-  data () {
-    return {
-    }
-  },
-  methods: {
   }
 }
 </script>

@@ -13,13 +13,11 @@
 import searchMixin from '../mixins/searchMixin.js';
 
 export default {
-  data () {
+  data() {
     return {
         blogs: [],
         search: ''
     }
-  },
-  methods: {
   },
   created() {
       this.$http.get('https://vuejs-ninja.firebaseio.com/post.json').then(function(data){
@@ -32,8 +30,6 @@ export default {
           }
           this.blogs = blogsArray;
       });
-  },
-  computed: {
   },
   filters: {
       toUppercase(value) {
