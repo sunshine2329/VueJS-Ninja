@@ -17,4 +17,4 @@ npm run build
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-http://workray.github.io/VueJS-Ninja
+http://sunshine2329.github.io/VueJS-Ninja
